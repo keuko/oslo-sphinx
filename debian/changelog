@@ -8,6 +8,7 @@ oslo-sphinx (4.7.0-1) experimental; urgency=medium
   [ Daniel Baumann ]
   * Updating vcs fields.
   * Updating copyright format url.
+  * Running wrap-and-sort -bast.
 
  -- Ondřej Nový <onovy@debian.org>  Fri, 05 Aug 2016 22:40:53 +0200
 
