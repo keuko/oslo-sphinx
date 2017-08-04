@@ -1,8 +1,12 @@
 oslo-sphinx (4.7.0-1) experimental; urgency=medium
 
+  [ Ondřej Nový ]
   * Team upload.
   * New upstream release
   * Rebased d/p/fixed_attribute_error.patch
+
+  [ Daniel Baumann ]
+  * Updating vcs fields.
 
  -- Ondřej Nový <onovy@debian.org>  Fri, 05 Aug 2016 22:40:53 +0200
 
