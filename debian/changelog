@@ -1,14 +1,29 @@
-oslo-sphinx (4.7.0-1) experimental; urgency=medium
-
-  [ Ondřej Nový ]
-  * Team upload.
-  * New upstream release
-  * Rebased d/p/fixed_attribute_error.patch
+oslo-sphinx (4.7.0-3) UNRELEASED; urgency=medium
 
   [ Daniel Baumann ]
   * Updating vcs fields.
   * Updating copyright format url.
   * Running wrap-and-sort -bast.
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 04 Aug 2017 22:06:27 +0200
+
+oslo-sphinx (4.7.0-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/s/options: extend-diff-ignore of .gitreview
+  * d/control: Using OpenStack's Gerrit as VCS URLs.
+
+  [ Thomas Goirand ]
+  * Uploading to unstable.
+  * Package missing files (ie: all from oslosphinx/theme was missing).
+
+ -- Thomas Goirand <zigo@debian.org>  Sat, 01 Oct 2016 21:16:35 +0200
+
+oslo-sphinx (4.7.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Rebased d/p/fixed_attribute_error.patch
 
  -- Ondřej Nový <onovy@debian.org>  Fri, 05 Aug 2016 22:40:53 +0200
 
