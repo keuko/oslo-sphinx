@@ -6,6 +6,8 @@ oslo-sphinx (4.7.0-3) UNRELEASED; urgency=medium
   * Running wrap-and-sort -bast.
   * Updating maintainer field.
   * Updating standards version to 4.0.0.
+  * Removing gbp.conf, not used anymore or should be specified in the
+    developers dotfiles.
 
  -- Ondřej Nový <onovy@debian.org>  Fri, 04 Aug 2017 22:06:27 +0200
 
