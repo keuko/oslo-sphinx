@@ -4,6 +4,7 @@ oslo-sphinx (4.7.0-3) UNRELEASED; urgency=medium
   * Updating vcs fields.
   * Updating copyright format url.
   * Running wrap-and-sort -bast.
+  * Updating maintainer field.
 
  -- Ondřej Nový <onovy@debian.org>  Fri, 04 Aug 2017 22:06:27 +0200
 
