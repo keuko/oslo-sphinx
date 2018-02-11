@@ -3,9 +3,11 @@ Author: Thomas Goirand <zigo@debian.org>
 Forwarded: https://review.openstack.org/#/c/250389/
 Last-Update: 2015-11-26
 
---- a/oslosphinx/theme/openstack/layout.html
-+++ b/oslosphinx/theme/openstack/layout.html
-@@ -106,10 +106,6 @@
+Index: oslo-sphinx/oslosphinx/theme/openstack/layout.html
+===================================================================
+--- oslo-sphinx.orig/oslosphinx/theme/openstack/layout.html
++++ oslo-sphinx/oslosphinx/theme/openstack/layout.html
+@@ -107,10 +107,6 @@
  {% block footer %}
  {{ super() }}
  <script type="text/javascript">

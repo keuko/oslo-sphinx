@@ -3,9 +3,11 @@ Author: Ondřej Nový <onovy@debian.org>
 Forwarded: not-needed
 Last-Update: 2016-07-16
 
---- a/oslosphinx/__init__.py
-+++ b/oslosphinx/__init__.py
-@@ -73,7 +73,7 @@
+Index: oslo-sphinx/oslosphinx/__init__.py
+===================================================================
+--- oslo-sphinx.orig/oslosphinx/__init__.py
++++ oslo-sphinx/oslosphinx/__init__.py
+@@ -72,7 +72,7 @@ def _get_other_versions(app):
  
  
  def builder_inited(app):
