@@ -137,7 +137,7 @@ oslo-sphinx (2.1.0-1) unstable; urgency=medium
   * Uploading to unstable.
 
   [ gustavo panizzo ]
-  * New upstream release. 
+  * New upstream release.
 
  -- Thomas Goirand <zigo@debian.org>  Fri, 18 Apr 2014 10:33:19 +0800
 
