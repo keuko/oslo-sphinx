@@ -1,4 +1,4 @@
-oslo-sphinx (4.7.0-3) UNRELEASED; urgency=medium
+oslo-sphinx (4.18.0-1) UNRELEASED; urgency=medium
 
   [ Daniel Baumann ]
   * Updating vcs fields.
@@ -11,7 +11,11 @@ oslo-sphinx (4.7.0-3) UNRELEASED; urgency=medium
   * Updating standards version to 4.0.1.
   * Updating standards version to 4.1.0.
 
- -- Ondřej Nový <onovy@debian.org>  Fri, 04 Aug 2017 22:06:27 +0200
+  [ Thomas Goirand ]
+  * New upstream release.
+  * Fixed (build-)depends for this release.
+
+ -- Thomas Goirand <zigo@debian.org>  Sun, 11 Feb 2018 14:34:17 +0100
 
 oslo-sphinx (4.7.0-2) unstable; urgency=medium
 

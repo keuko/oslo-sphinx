@@ -8,24 +8,25 @@ Uploaders:
  Ivan Udovichenko <iudovichenko@mirantis.com>,
  David Della Vecchia <ddv@canonical.com>,
 Build-Depends:
- debhelper (>= 9),
+ debhelper (>= 10),
  dh-python,
- openstack-pkg-tools (>= 51~),
+ openstack-pkg-tools,
  python-all,
- python-pbr (>= 1.8),
+ python-pbr (>= 2.0.0),
  python-setuptools,
- python-sphinx,
+ python-sphinx (>= 1.6.2),
  python3-all,
- python3-pbr (>= 1.8),
+ python3-pbr (>= 2.0.0),
  python3-setuptools,
  python3-sphinx,
 Build-Depends-Indep:
  python-hacking (>= 0.10.0),
- python-requests (>= 2.10.0),
- python-six (>= 1.9.0),
+ openstackdocstheme (>= 1.17.0),
+ python-requests (>= 2.14.2),
+ python-six,
  python3-hacking (>= 0.10.0),
- python3-requests (>= 2.10.0),
- python3-six (>= 1.9.0),
+ python3-requests (>= 2.14.2),
+ python3-six,
 Standards-Version: 4.1.0
 Vcs-Browser: https://anonscm.debian.org/cgit/openstack/oslo/oslo-sphinx.git
 Vcs-Git: https://anonscm.debian.org/git/openstack/oslo/oslo-sphinx.git
@@ -36,9 +37,9 @@ Package: python-oslosphinx
 Architecture: all
 Depends:
  python-oslosphinx-common,
- python-pbr (>= 1.8),
- python-requests (>= 2.10.0),
- python-six (>= 1.9.0),
+ python-pbr (>= 2.0.0),
+ python-requests (>= 2.14.2),
+ python-six,
  ${misc:Depends},
  ${python:Depends},
 Description: theme and extension support for openstack - Python 2.7
@@ -64,9 +65,9 @@ Package: python3-oslosphinx
 Architecture: all
 Depends:
  python-oslosphinx-common,
- python3-pbr (>= 1.8),
- python3-requests (>= 2.10.0),
- python3-six (>= 1.9.0),
+ python3-pbr (>= 2.0.0),
+ python3-requests (>= 2.14.2),
+ python3-six,
  ${misc:Depends},
  ${python3:Depends},
 Description: theme and extension support for openstack - Python 3.x
