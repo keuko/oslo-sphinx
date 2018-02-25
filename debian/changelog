@@ -1,3 +1,8 @@
+oslo-sphinx (4.18.0-3) UNRELEASED; urgency=medium
+
+  * d/control: Set Vcs-* to salsa.debian.org
+
+ -- Ondřej Nový <onovy@debian.org>  Mon, 12 Feb 2018 10:28:54 +0100
 oslo-sphinx (4.18.0-2) unstable; urgency=medium
 
   * Uploading to unstable.
