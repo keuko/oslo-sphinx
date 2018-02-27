@@ -8,7 +8,7 @@ Uploaders:
  Ivan Udovichenko <iudovichenko@mirantis.com>,
  David Della Vecchia <ddv@canonical.com>,
 Build-Depends:
- debhelper (>= 10),
+ debhelper (>= 10~),
  dh-python,
  openstack-pkg-tools,
  python-all,
