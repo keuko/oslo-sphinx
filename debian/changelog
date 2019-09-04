@@ -1,12 +1,16 @@
-oslo-sphinx (4.18.0-3) UNRELEASED; urgency=medium
+oslo-sphinx (4.18.0-3) unstable; urgency=medium
 
+  [ Ondřej Nový ]
   * d/control: Set Vcs-* to salsa.debian.org
   * d/control: Add trailing tilde to min version depend to allow
     backports
   * d/control: Use team+openstack@tracker.debian.org as maintainer
   * Use debhelper-compat instead of debian/compat.
 
- -- Ondřej Nový <onovy@debian.org>  Mon, 12 Feb 2018 10:28:54 +0100
+  [ Thomas Goirand ]
+  * Drop python 2 support (Closes: #937219).
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 04 Sep 2019 09:51:49 +0200
 
 oslo-sphinx (4.18.0-2) unstable; urgency=medium
 

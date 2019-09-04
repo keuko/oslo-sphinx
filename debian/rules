@@ -4,14 +4,18 @@ UPSTREAM_GIT = https://github.com/openstack/oslo.sphinx.git
 include /usr/share/openstack-pkg-tools/pkgos.make
 
 %:
-	dh $@ --buildsystem=python_distutils --with python2,python3
+	dh $@ --buildsystem=python_distutils --with python3
+
+override_dh_auto_clean:
+	rm -rf build .stestr
+	find . -iname '*.pyc' -delete
+	for i in $$(find . -type d -iname __pycache__) ; do rm -rf $$i ; done
+
+override_dh_auto_build:
+	echo "Do nothing..."
+
+override_dh_auto_test:
+	echo "Do nothing..."
 
 override_dh_auto_install:
-	set -e && for pyvers in $(PYTHONS); do \
-		python$$pyvers setup.py install --install-layout=deb \
-			--root $(CURDIR)/debian/python-oslosphinx; \
-	done
-	set -e && for pyvers in $(PYTHON3S); do \
-		python$$pyvers setup.py install --install-layout=deb \
-			--root $(CURDIR)/debian/python3-oslosphinx; \
-	done
+	pkgos-dh_auto_install --no-py2 --in-tmp
